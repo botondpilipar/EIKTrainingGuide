@@ -1,0 +1,68 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin = 1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{multirow}
+
+
+\title{Formulas}
+\author{CIS 160 Fall 2014}
+\date{19 September 2014}
+
+\begin{document}
+\maketitle
+
+\setlength{\parindent}{0pt}
+
+Here are the formulas for counting in various ways:
+
+\begin{center}
+\begin{tabular}{ |l|c|c| }
+\hline
+ & No Repetition & Repetition Allowed \\ \hline
+\multirow{3}{*}{Not Sensitive to Order}
+ & & \\
+ & $ \binom{n}{r} $ & $ \left(\!\!{n\choose r}\!\!\right) = \binom{n+r-1}{r} $ \\
+  & & \\
+
+ \hline
+\multirow{3}{*}{Sensitive to Order}
+ & & \\
+ & $ P(n,r) $ & $ n^r $ \\
+  & & \\
+ \hline
+\end{tabular}
+\end{center}
+
+Here are examples to demonstrate:
+
+\begin{center}
+\begin{tabular}{ |l|c|c| }
+\hline
+ & No Repetition & Repetition Allowed \\ \hline
+\multirow{3}{*}{Not Sensitive to Order}
+ & {5 distinct books} & {unlimited copies of 5 books} \\
+ & {choose 3 books to take home} & {choose 3 copies to take home} \\
+ & & \\
+ & $ \binom{5}{3} $ & $ \left(\!\!{5\choose 3}\!\!\right) = \binom{5+3-1}{3} $ \\ 
+ \hline
+\multirow{3}{*}{Sensitive to Order}
+ & {5 distinct books} & {unlimited copies of 5 books} \\
+ & {give one to person A, B, and C} & {give one to person A, B, and C} \\
+ & & \\
+ & $ P(5,3) $ & $ 5^3 $ \\ 
+ \hline
+\end{tabular}
+\end{center}
+
+And here are some more formulas: \\
+\[ \binom{n}{r} = \frac{n!}{(n-r)!r!} \] \\
+\[ \binom{n}{r} = \binom{n}{n-r} \] \\
+\[ \binom{n}{r} = \binom{n-1}{r-1} + \binom{n-1}{r} \]
+
+
+
+\end{document}
+
