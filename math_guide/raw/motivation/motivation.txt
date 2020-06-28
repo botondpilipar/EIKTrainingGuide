@@ -54,7 +54,7 @@ bírnak. Vegyük például a Bloom filter-t. Ez az elemi adatszerkezet a jelenle
 módja, hogy egy elemről meghatározzuk, benne van-e egy nagy elemszámú halmazban. Az
 algoritmus gyorsaságának kulcsa hash függvényekben rejlik. A meghatározás algoritmusa bár
 nagyon hatékony, nem adhat 100%-os védelmet az ellen, hogy egy halmazba nem tartozó elem
-átjusson a „szűrőn”. A hibás átjutás valószínűségére az alábbi képlet áll rendelkezésünkre:
+átjusson a "szűrőn". A hibás átjutás valószínűségére az alábbi képlet áll rendelkezésünkre:
  Itt a hash függvények számát k paramétert kell
 meghatároznunk fix n ,m paraméterek esetén, hogy a képlet a lehető legkisebb értéket vegye fel.
 Ez a feladat közel sem triviális, egyszerű egyenlet megoldó módszerek nem juttatnak eredményre. A

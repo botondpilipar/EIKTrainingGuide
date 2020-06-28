@@ -2,17 +2,113 @@
 
 \begin{document}
 
-\title{Motiváció}
+\subsection{Bevezetés}
 
-Vestibulum ut efficitur diam. Ut in venenatis felis.
-Pellentesque porta metus vitae augue ornare scelerisque.
-Phasellus ut felis at est pretium scelerisque eget vel turpis.
-Ut blandit turpis eu arcu lobortis, a pellentesque elit porta.
-Pellentesque consectetur auctor turpis vulputate sollicitudin.
-Duis fermentum, diam nec commodo volutpat, nisl eros varius erat,
-ac eleifend nibh eros sed lorem. Praesent malesuada dui ut nibh 
-tincidunt cursus. Praesent faucibus pretium sapien, sed pulvinar nisi
-dictum ornare. Pellentesque sed massa et augue eleifend porttitor.
-Mauris eu massa nisi.
+\begin{itemize}
+    \item[--] Hogyan lehetséges, hogy az emberek egy része könnyen tanulja a matematikát, míg
+mások robotolva, nagy erőfeszítések árán képesek erre?
+    \item[--] Miért van az, hogy a matek tanulás egyik pillanatban elkápráztatja az embert, a
+másikban pedig kudarc élménnyé válik?
+    \item[--] Miért fordul az elő, hogy egyes hallgatók középiskolában szerették a matematikát, az
+egyetemi matematika viszont szenvedéssé vált számukra?
+\end{itemize}
+
+\begin{flushleft}
+
+\textbf{Miért tanulunk matekot?} Talán nincs is olyan kérdés, amit ennél többször teszünk fel magunkban,
+egy több órás analízis tanulás után. Még ha hallunk
+is példákat gyakorlatokon, sokszor nem érezzük relevánsnak számunkra,
+hiszen nem foglalkoztunk mégsem titkosítással, sem fizikai modellek megalkotásával,
+ahol ez a fajta tudás elengedhetetlen. A következő pár oldalban szeretnénk nektek 
+egy pár kézzel fogható példát adni, hol hatalmas segítség a matematika. 
+
+\end{flushleft}
+
+\subsection{Egyetem és matematika}
+
+\begin{flushleft}
+A matematikai tárgyak tanulása nyitja meg a kaput a mélyebb ismeretek felé, a tudományos munka felé.
+BSc képzésen a szakirányok segítik a hallgatót döntésében, hogy milyen irányba szeretnének menni.
+Mindazoknak, akik szeretnék tanulmányaikat folytatni MSc-n, illetve akár PHD-n,
+erős matematikai alapokat kell biztosítani, tekintve, hogy a magasabb szintű problémák esetén ritkán kerülhető el,
+hogy széleskörű matematikai tudásanyagot kelljen felhasználni. Bsc-n a hallgatók az alábbi 
+matematikai területeket fogják megismerni:
+
+\begin{itemize}
+    \item Analizis
+    \item Diszkrét matematika
+    \item Numerikus módszerek
+    \item Lineáris algebra
+\end{itemize}
+
+\end{flushleft}
+
+\begin{flushleft}
+    Egyetemi szempontból az egyik fő probléma okozója a matematika tanulása.
+    Mivel vannak olyanok, akik ha nehézségekbe ütköznek, tovább tudnak lépni,
+    mások pedig a nehézség miatt abbahagyják a képzésüket már az elején, vagy akár a későbbiekben.
+    Nehézésgek egyik fő okozója a rossz tanulási módszerek használata.
+    Általában arra törekednek az emberek, hogy az elsajátítandó ismereteket többszöri ismétlés
+    révén rögzítsék ("magolás"). Ennél léteznek jóval hatékonyabb módszerek, amikről később fogtok hallani.
+\end{flushleft}
+
+\subsection{Példák}
+
+\begin{flushleft}
+A matematika a rövidítések, csalások tudománya.
+A legtöbb matematikai tétel a gyakorlatba átültetve megkönnyíti az életünket.
+A matekos problémamegoldó gondolkodás nem csak papíron könnyíti meg a dolgunkat.
+Ha hatékony és gyors programokat szeretnénk írni, használhatunk matematikailag bizonyított módszereket, formulákat.
+\end{flushleft}
+
+\begin{itemize}
+    \item[--]  \textit{\textbf{{Választható példa: Fibonacci rekurzívan}}}
+    
+    Tegyüg fel, hogy szeretnénk Fibonacci számot kiszámoló programot írni, méghozzá minél hatékonyabban.
+    Fibonacci számolása a rekurzió tipikus példája, melyben a függvény saját magát hívja meg. Ez a
+    megközelítés azonban pazarló memória és számítási kapacitás tekintetében. Számos módon
+    javítható a megoldás, ám a legalkalmasabb erre, ha a rekurzó helyett a Binet-formulát használjuk.
+
+    \[ 
+        f_n = \frac
+            {
+            (\frac{1 + \sqrt{5}}{2})^n - (\frac{1 - \sqrt{5}}{2})^n
+            }
+            {
+                \sqrt{5}
+            }
+    \]
+
+    Bár ez első pár szám esetében a formulás változat lassabb, mint a rekurzív változat,
+    nagyobb számokra (pl. 35. fibonacci szám) a formulás változat nagyságrendekkel jobb.
+    Ha formulával számolunk, a szám nagysága sokkal kevésbé befolyásolja a számítási igényt,
+    mint a rekurzív képletnél. Azonban, ha az így kapott programunkat lefuttatjuk Fibonacci 72-re,
+    azt látjuk, hogy egy eltérés van a valós eredmény és az általunk kapott eredmény között,
+    vajon ez miért lehet? Hol csúszhatott el a számítás? Igazából, ez egy meglehetősen komplex kérdés,
+    egy teljes tudományág foglalkozik ezzel (de nem csak ezzel): a numerikus módszerek.
+    A válasz a számítógép véges lebegőpontos aritmetikájában rejlik.
+
+    \item[--]  \textit{\textbf{Választható példa: Bloom filter algoritmus}}
+     
+        A matematikai módszerek az algoritmusok és adatszerkezetek területén is hatalmas jelentőséggel
+        bírnak. Vegyük például a Bloom filter-t. Ez az elemi adatszerkezet a jelenleg ismert leggyorsabb
+        módja, hogy egy elemről meghatározzuk, benne van-e egy nagy elemszámú halmazban. Az
+        algoritmus gyorsaságának kulcsa hash függvényekben rejlik. A meghatározás algoritmusa bár
+        nagyon hatékony, nem adhat 100\%-os védelmet az ellen, hogy egy halmazba nem tartozó elem
+        átjusson a "szűrőn". A hibás átjutás valószínűségére az alábbi képlet áll rendelkezésünkre:
+
+        \[
+            (1 - e^{\frac{-km}{n}}) ^ k
+        \]
+
+        Itt a hash függvények számát k paramétert kell meghatároznunk fix \( n, m \) paraméterek esetén,
+        hogy a képlet a lehető legkisebb értéket vegye fel. Ez a feladat közel sem triviális,
+        egyszerű egyenlet megoldó módszerek nem juttatnak eredményre. A többváltozós analízis eszközeivel azonban meghatározható,
+        hogy a válasz \( ln2 \frac{m}{n}\) . Ez a számolás hatalmas jelentőséggel bír, hiszen bármely helyzetben kihozhatjuk az algoritmusból a legtöbbet.
+        A Bloom filter az iparban számos helyen használják. A YouTube ennek segítségével állítja össze az “ajánlott” videók,
+        ugyanis csak akkor kerülhet oda, ha még nem láttuk a videót. Az URL rövidítő alkalmazások ilyenek segítségével nézik meg,
+        foglalt-e már az általuk generált URL cím.
+        
+\end{itemize}
 
 \end{document}

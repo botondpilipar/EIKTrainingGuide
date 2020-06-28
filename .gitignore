@@ -1,1 +1,8 @@
 build
+experiment
+*.pdf
+*.log
+*.gz
+*.fls
+*.fdb_latexmk
+*.aux
