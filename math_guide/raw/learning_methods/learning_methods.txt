@@ -1,0 +1,282 @@
+Tanulási technikák
+
+Matek tanuláshoz
+
+Sokféle tanulási technika létezik, melyeket lehet kategorizálni hatékonyságuk szerint.
+Hatékonynak azt a technikát mondjuk, amelyik hosszútávon jobb eredményeket biztosít
+számunkra.
+3 kategóriába sorolható hatékonyságuk szerint ezek a technikák:
+     nem hatékony
+        o ismételt elolvasás
+        o aláhúzás, kiemelés
+        o összegzés
+     közepesen hatékony
+        o miért?
+        o önmagunknak elmagyarázni
+     hatékony
+        o gondolattérkép (MindMap)
+        o Cornell-módszer
+        o időben elosztott tanulás
+        o előhívási (tesztelési) hatás
+
+Fontos kihangsúlyozni, hogy hosszútávú tanulás szempontjából vannak ezekbe a
+kategóriákba besorolva.
+Mindegyik technika aszerint van egy csoportba besorolva, hogy önmagában, ha csak azt a
+tanulási technikát alkalmazod és semelyik másikat sem, akkor mennyire hatékony. Tehát
+lehet az Ismételt elolvasás is hatékony, ha vegyíted más technikákkal.
+Miért lehetséges ez? Azért lehetséges ez, mert a tanulás több fázisból áll és mindegyik
+fázishoz más tanulási technika felel meg. Így, ha te csak egy tanulási technikát alkalmazol,
+akkor valószínűleg a tanulás fázisaiból is kihagysz bizonyos részeket, ami a hosszútávú
+tanulás szempontjából káros. A hatékony tanulás egyik fontos része, hogy mind az 5 fázist
+teljesítsd és mind az 5 fázist az annak megfelelő tanulási technikával hajtsd végre. Mik
+ezek a fázisok?
+A fázisok a következők:
+1. Tervezés
+    a. megtervezzük, hogy mikor akarunk tanulni és mennyi időnk van rá
+    b. felosztjuk a nagy anyagot, kisebb megtanulandó részekre
+        i. ha az ember hétről hétre tanulni, már fel van neki osztva (mert nem
+            a teljes félévest anyagot kell hirtelen megtanulnia)
+                1. de ezt tovább bonthatja még kisebb egységekre és azokat
+                eloszthatja a hét napjain a következő tanóráig
+
+2. Előkészület
+    a. elhelyezzük magunkat az adott témában
+    b. egyszer elolvassuk az egészet, hogy legyen egy képünk arról, miről is fogunk
+        tanulni
+3. Megértés
+    a. megpróbáljuk megérteni az adott részeket
+    b. megpróbáljuk előzetes ismeretekhez kötni, hogy tudjuk, hogy a nagy
+        egészben ez hova is tartozik
+
+4. Megtanulás
+    a. elsajátítjuk a megszerezni kívánt tudást
+5. Visszaidézés
+    a. megpróbáljuk felidézni, hogy mit is tanultunk
+        b. ha nem sikerül visszaugrunk a 3. fázisra
+
+Most nézzük meg a tanulási technikákat részletesebben.
+
+1. NEM HATÉKONY
+
+Ismételt elolvasás
+
+Mit is csinálunk ekkor? Fogunk egy anyagrészt, többször elolvassuk és próbáljuk
+memorizálni, esetlegesen „bemagolni” a szöveg tartalmát, lényegét.
+Rövid távon ez egy hatékony módszer tud lenni. Hosszú távon, akkor tud hatékony módszer
+lenni, ha vegyíted más tanulási technikákkal.
+
+ELŐNYE:
+     nem kell külön megtanulni a módszert (egyértelmű, mit kell tenni)
+HÁTRÁNYA:
+     hosszú távon nem marad meg  nem tudsz majd a későbbiekben új tudást ráépíteni
+HOL HASZNÁLHATOD A MATEK TANULÁSBAN?
+     definíciók, tételek, bizonyítások megtanulása
+
+Aláhúzás, kiemelés
+
+Mit is csinálunk ekkor? Fogunk egy anyagrészt, elolvassuk egyszer, aztán a második olvasás
+során kiemeljük valamilyen módon (aláhúzás, szövegkiemelő stb.) a szöveg lényegét, a
+kulcsszavait.
+Rövid távon ez is egy hatékony módszer, HA a lényeg kiemelése után még többször is
+elolvasod, tehát vegyíted az Ismételt elolvasás technikával.
+
+ELŐNYE:
+     nem túl időigényes (ha nem vegyíted az Ismételt elolvasás technikával)
+     nehéz szövegeknél kezdő lépésnek hatékony hosszú távon is (fontos, hogy kezdő
+    lépésnek hatékony, utána kell még vele más technikákkal foglalkozni!)
+    o Miért hatékony kezdő lépésként hosszú távon is?
+     érteni kell hozzá a szöveget
+     ki kell tudni szűrni a lényeget
+     képesnek kell lenni optimális mennyiségű aláhúzást tenni
+
+HÁTRÁNYA:
+     önmagában nem sokat ér  tudás alkalmazása során rosszabb teljesítmény
+     vegyítve más technikákkal időigényes
+    HOL HASZNÁLHATOD A MATEK TANULÁSBAN?
+     definíciók, tételek, bizonyítások megértése
+
+Összegzés
+
+Mit is csinálunk ekkor? Fogunk egy anyagrészt, elolvassuk egyszer, utána pedig
+kijegyzeteljük a lényegek és az összefüggések alapján vázlatpontosan.
+Hosszú távon is hatékony tud lenni, ha vegyíted az első kettő technikával (Ismételt
+elolvasás és Aláhúzás, kiemelés), valamint, ha jó jegyzetet tudsz készíteni.
+
+ELŐNYE:
+     önmagában is hatékonyabb, mint az ismételt elolvasás
+    o Miért?
+     érteni kell hozzá a szöveget
+     látni kell a lényeget és az összefüggéseket
+
+HÁTRÁNYA:
+     meg kell tanítani a módszert, nem magától értetődő
+    HOL HASZNÁLHATOD A MATEK TANULÁSBAN?
+     definíciók, tételek, bizonyítások megértése
+     definíciók, tételek, bizonyítások megtanulása
+
+2. KÖZEPESEN HATÉKONY
+
+Miért?
+
+Mit is csinálunk ekkor? Fogunk egy anyagrészt, elolvassuk, majd kérdéseket teszünk fel
+magunknak a szöveggel kapcsolatban és azzal kapcsolatban, hogy ezek az új információk
+miként köthetők a korábbi ismereteinkhez, majd megpróbálunk azokra válaszolni. Ha nem
+sikerül, megnézzük a választ és megpróbáljuk megérteni, összekötni őket és memorizálni.
+
+ELŐNYE:
+     egyéni képességektől függetlenül hat
+     kérdésfeltevésen alapszik
+    o amihez szükséges:
+     az új információk feldolgozása
+     az új információk összekapcsolása a korábbi ismeretekkel
+     ehhez emlékeznünk kell a korábbi ismeretekre is, amiket így
+    újra felelevenítünk és már össze is kötünk valami új
+    ismerettel
+
+HÁTRÁNYA:
+     problémamegoldási feladatokban nem hat
+     nem tudni, hogy hosszabb távon hatékony-e
+    HOL HASZNÁLHATOD A MATEK TANULÁSBAN?
+     definíciók, tételek, bizonyítások megértése
+     feladatok megoldási menetének megértése, átlátása
+
+Önmagunknak elmagyarázni
+
+Mit is csinálunk ekkor? Fogunk egy anyagrészt, elolvassuk, majd megpróbáljuk saját
+szavainkkal elmagyarázni magunknak az összefüggéseket, történéseket és azok kapcsolatát
+a korábbi ismereteinkkel.
+
+ELŐNYE:
+     egyéni képességektől függetlenül hat
+     korábbi ismeretekkel való összekapcsolás
+
+HÁTRÁNYA:
+     fejleszteni kell hozzá a következő képességeket:
+        o összefüggések meglátása
+        o ismeretek összekapcsolása
+        o összefüggő, logikus felépítésű magyarázat összerakása
+     nem tudni, hogy hosszabb távon hatékony-e
+    
+HOL HASZNÁLHATOD A MATEK TANULÁSBAN?
+     definíciók, tételek, bizonyítások megértése
+     feladatok megoldási menetének megértése, átlátása
+
+3. HATÉKONY
+
+Gondolattérkép
+
+
+Cornell-módszer
+
+Időben elosztott tanulás
+
+Mit is csinálunk ekkor? Fogunk egy anyagrészt és felbontjuk sok kisebb megtanulandó
+részre. Utána készítünk egy tervezetet, hogy mikor melyik részt fogjuk nagyon jól
+megtanulni valamelyik másik technika segítségével, mikor fogunk időközönként ismételni.
+Ekkor egyrészt kialakul a rendszeres hétről, hétre tanulás (amiről azt mondják, hogy a
+siker titka), valamint így a koncentrációnkon is segítünk, mert mindig csak egy kisebb
+részre kell összpontosítanunk, így jobban tudunk majd teljesíteni.
+Fontos, hogy két kisebb rész között legyen szünet, amíg valami teljesen mást csinálunk,
+hogy pihenhessen az agyunk.
+
+ELŐNYE:
+     hosszú távon hatékony (kutatások bizonyítják)
+HÁTRÁNYA:
+     időigényes
+     megtanulás szándéka nélkül nem hat
+HOL HASZNÁLHATOD A MATEK TANULÁSBAN?
+     definíciók, tételek, bizonyítások megértése
+     definíciók, tételek, bizonyítások megtanulása
+     feladatok megoldási menetének megértése, átlátása
+     feladatok megoldása, begyakorlása
+
+Előhívási (tesztelési) hatás
+
+Mit is csinálunk ekkor? Fogunk egy anyagrészt, valamilyen módon megpróbáljuk
+megtanulni, az eszünkbe vésni, majd rögtön utána tesztekkel megpróbálunk
+visszaemlékezni a tanultakra (pl. óra végi röpzh-k).
+ELŐNYE:
+     egyéni képességektől függetlenül hat
+     megtanuljuk előhívni a megszerzett tudást
+        o egy dolog bejuttatni az agyba az információt és megint másik dolog azt az
+            információt előhívni
+     más idegi pályákon történik a bejuttatás és az előhívás, ezért fontos
+    mindkettőt gyakorolni
+     amíg még friss a bejuttatott információ addig könnyebben
+    tudunk rá emlékezni  így hamar ki tudjuk építeni azt az
+    idegi pályát, amin majd a későbbiekben is elő tudjuk hívni az
+    új ismeretet
+     gyakorlással mélyítjük el az idegi pályákat
+        o minél mélyebb, többször bejáratot az idegi pálya
+        annál tartósabban, hosszabb ideig megmarad az
+        információ
+
+HÁTRÁNYA:
+     még ismeretlen
+HOL HASZNÁLHATOD A MATEK TANULÁSBAN?
+     definíciók, tételek, bizonyítások megtanulása
+     feladatok megoldása, begyakorlása
+
+ÖSSZEGZÉS ÉS PÉLDA
+
+Matek tanulás
+
+Tanulás fázisai Tanulási technikák
+1. Tervezés  Időben elosztott tanulás
+2. Előkészület  elolvasás (elemi tanulási technika)
+3. Megértés  Aláhúzás, kiemelés
+     Összegzés
+     Miért?
+     Önmagunknak elmagyarázni
+     Gondolattérkép
+     Cornell-módszer
+
+4. Megtanulás  Ismételt elolvasás
+     Összegzés
+
+5. Visszaidézés  Előhívási (tesztelési) hatás
+Végezetül pedig egy példa a matek elmélet hétről hétre tanulásához:
+    1. Tervezés
+        a. technika: Időben elosztott tanulás
+        b. Hogyan csinálom?
+            i. felosztom a heti anyagot több kisebb részre
+            ii. megnézem a hetemet, hogy mely napokon tudok egy-egy részt
+            feldolgozni és megtanulni
+            iii. kitűzőm az időpontokat és hogy aznap melyik részt fogom
+            feldolgozni
+
+2. Előkészület
+    a. technika: elolvasás
+    b. Hogyan csinálom?
+        i. először elolvasom a teljes heti anyagot, hogy lássam, hova fog
+        tartozni az a kis rész, amit most meg fogok tanulni
+        ii. utána elolvasom csak azt a kis részt, amit meg akarok tanulni
+
+3. Megértés
+    a. technikák: Aláhúzás, kiemelés; Miért?; Önmagunknak elmagyarázás;
+    Gondolattérkép
+    b. Hogyan csinálom?
+        i. elolvasom a megtanulandó részt és közben kiemelem a tartalmának a
+        lényegét
+        ii. kérdéseket teszek fel magamnak, hogy tényleg értem-e és ha
+        nem akkor utánanézek
+        iii. összekötöm a korábbi ismereteimmel az újat és elmagyarázom
+        magamnak, hogy mi mivel miért és hogyan függ össze, miről is szól ez
+        a rész
+        iv. készítek egy gondolattérképet róla
+
+4. Megtanulás
+    a. technika: Ismételt elolvasás
+    b. Hogyan csinálom?
+        i. elolvasom a megtanulandó részt
+        ii. elolvasom a gondolattérképet
+        iii. addig olvasom a megtanulandó részt, amíg azt nem érzem,
+        hogy tényleg tudom szakszavakkal, kifejezésekkel együtt és vissza is
+        tudom mondani
+
+5. Visszaidézés
+    a. technika: Előhívási (tesztelési) hatás
+    b. Hogyan csinálom?
+        i. visszakérdezem magamtól a megtanult definíciót, tételt, bizonyítást
+        ii. ha nem tudom teljesen jól, akkor visszaugrok a megtanulás
+        fázisához
