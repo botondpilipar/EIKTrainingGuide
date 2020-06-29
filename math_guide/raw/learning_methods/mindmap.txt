@@ -1,0 +1,65 @@
+Mind map
+
+Ebben a részben arról lesz szó, hogy miért hatékony a mind map, mire szolgál és hogyan épül fel.
+
+Tipp: Érdemes először a kérdéseket feltenni a gólyáknak, majd hagyni, hogy agyaljanak rajta és utána közösen megbeszélni (célszerű rávezetni őket a válaszra, akkor jobban elmélyül az új ismeret).
+
+Kérdés: Mi az a mind map? 
+
+Tipp: Ha valaki már ismeri kérjük meg, hogy foglalja össze pár mondatban.
+
+Válasz:
+    Magyarul a Mind Map Gondolattérképet jelent. Ez egy olyan tanulási eszköz, amelynek az egyszerűségében és az egységes egészben való ábrázolásban(holisztikus gondolkodás) rejlik a szépsége. Papíron egy gyönyörű diagram szemlélteti a témához fűződő információkat (összefüggéseket).
+    A mind map az elemi tanulási technikák közé tartozik, hiszen a kulcsfogalmakat emeljük ki és foglaljuk össze ábrák készítésével és a fogalmak közötti kapcsolatok felfedezésével. Nagyon hasznosnak minősül, mivel szinte az összes tanulási típust (például: auditív, vizuális, taktilis) lefedi.
+    Ez a tanulási módszer aktiválja az “egész” agyunkat, ahogyan a logikáért felelős bal oldali agyféltekét , úgy a kreativitásért felelős jobb oldali agyféltekét is. Következtetés képen egy nagyon hatékony és szórakoztató módszer.
+
+Kérdés: Mikor érdemes ezt a technikát használni? Hasznos vele előadást jegyzetelni?
+
+Válasz:
+    Előadás közbeni jegyzetelésre nem hasznos.
+
+    Használjuk azután miután már van egy alap jegyzetünk, hiszen limitált helyünk van és azt jól kell beosztani. Hasznos egy dolgozat előtt felvázolni/ feltérképezni a témát. Segít átlátni a ZH anyagát egy nagy egységben.
+
+Mind map elkészítése
+
+Feladat: A gólyák alkossanak csoportokat (2-3 fő). Kapjanak egy A4-es fehér lapot és legalább 5 színes ceruzát. Kérjük meg, hogy egyezzenek meg gyorsan egy témán, amit lépésenként együtt dolgoznak ki. Míg prezentáljuk a lépéseket ők dolgozzanak.
+
+Lépések:
+1. Helyezzük el a papírt magunk előtt (horizontálisan). Rajzoljunk egy képet (esetleg írjunk fel egy címet) a közepére ami az egész témát jelöli. FONTOS: A rajzhoz legalább három színt használjanak.
+
+2. Válasszunk egy színt és rajzoljuk meg a fő témádból kiinduló első törzset. Ez azért jó mert a törzs vastagsága szimbolizálja a kulcsszó asszociációs rangját (hierarchy).
+
+3. Címezzük fel a törzset nagybetűkkel és ugyanazzal a színnel, amivel megrajzoltuk. (A címzés helyett használhatsz kis ábrákat is.)
+
+4. A törzsből húzzunk ki másod rangú ágacskákat majd a másodrangú ágacskákból vezessünk ki harmad rangú ágacskákat és így tovább. Ezeket az ágacskákat ugyanúgy címezzük fel, vagy szimbolizáljuk valamilyen ábrával.
+
+5. Ismételgessük a 2., 3., 4. lépéseket, amíg végig nem érünk a témán. Figyeljünk arra, hogy egyenletesen osszuk el a rendelkezésedre álló teret törzsenként.
+Tipp: Elég, ha 2-3 törzset berajzolnak.
+
+EXTRA: Ha két törzs között találunk valamilyen kapcsolatot akkor ne féljünk egy nyíllal azt megjelölni ,és leírni az összefüggés kulcsszavát a nyíl felé.
+
+Eredmény: Tipp: Ha van egy bátor, vállalkozó szellemü hallgató, akkor kérjük meg, hogy összefüggő mondatokban prezentálja a megrajzolt gondolattérképét. Ha nincs jelentkező, akkor bátorítsuk őket és kérjünk meg valakit.
+
+Nem kötelező de ajánlott: Mind map előnyei és hátrányai
+
+Tipp: Kérdezzük ki a diákok véleményét. Nem kell végig menni az összes ponton.
+
+Előny:
+    Segít a rendszerezésben.
+    Segítségével felrajzolhatjuk a tananyagban talált kapcsolatokat.
+    Látványos.(színes, képek kombinációja szavakkal/kifejezésekkel)
+    Megjelenik benne az asszociációs logika.
+    Több szemszögből is megtekinthető, multidimenzionuális.
+    Elemei általában “buborékok”, körök (általában a fogalmakat jelölik) és őket összekötő vonalak (a fogalmak közötti kapcsolatok jelölésére).
+    Használhatunk egyéb jelöléseket, színeket - bármit, ami segít.
+
+Hátrány:
+    Érdemes rá figyelni, hogy ne legyen nagyon bonyolult rajzunk, mert így a módszer veszíthet a hatékonyságából.
+    Figyelni kell a jelölések rendszerezésére, mert átláthatatlanná válik.
+    Nem szabad hosszú szövegeket felírni.
+    Óra közben ne ezt a módszert használjuk jegyzetelésre, mert limitált helyünk van
+    Figyelni kell a rendszerezésre és a témák megfelelő elosztására.
+
+
+Téma lezárásához: Elmondhatjuk, hogy matektanulásban a definíciók, tételek, bizonyítások megértésében segít, illetve a feladat megoldási menetének megértése/ feltérképezésében is.
++ További információért felírhatjuk Tony Buzan nevét a táblára, ha rákeresnek találnak irodalmat és szoftvert is a témához!
