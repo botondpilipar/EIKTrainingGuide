@@ -10,6 +10,11 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{array}
+
+\renewcommand{\arraystretch}{1.6}
+\setlistdepth{9}
 
 \usepackage{geometry}
  \geometry{
@@ -21,6 +26,8 @@
  bottom=20mm
  }
 
+ \graphicspath{{./images/}}
+
 \title{Tanulásmódszertan tréning ősz}
 
 \author{Eötvös Informatikai Kör}
@@ -31,13 +38,16 @@
 \section{Összefoglalás}
 \subfile{chapters/1_guide_content}
 
+\section{Bemutatkozás}
+\subfile{chapters/2_introduction}
+
 \section{Miért tanulunk matekot?}
-\subfile{chapters/2_motivation}
+\subfile{chapters/3_motivation}
 
 \section{Hatékony tanulás}
-\subfile{chapters/3_methods}
+\subfile{chapters/4_methods}
 
 \section{Általános tanácsok, tippek}
-\subfile{chapters/4_tips_tricks_qa}
+\subfile{chapters/5_tips_tricks_qa}
 
 \end{document}
