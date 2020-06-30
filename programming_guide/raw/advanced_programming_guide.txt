@@ -1,0 +1,138 @@
+Haladó programozás tréning
+Kommunikáció
+
+Nagy cégnél programozóként dolgozni annyit jelent, mint csapatban dolgozni. A fejlesztés általában egy területen, megosztott feladatokkal zajlik, ennek eredményeképpen megoszlik a kompetencia is. Emiatt sokszor az információszerzés egyetlen módja az, ha megkérdezünk másokat. 
+
+Tipp: Hangsúlyozhatjuk a hallgatóknak, hogy nem szégyen sosem kérdezni, hiszen ez az alapja  a tanulásnak, ezzel azt is jelezzük, hogy érdekel minket a terület/munka. 
+
+Bár a ma használatos keretek (Scrum, Kanban) elősegítik a kommunikációt bizonyos módokon (rendszeres meetingek), fontos hogy személyesen is kommunikáljunk a közös cél érdekében
+
+Scrum
+
+Rávezető kérdés: Szerintetek milyen sűrűn érdemes szervezett megbeszéléseket tartani?
+
+Rávezető kérdés: Mi előnyei és hátrányai vannak ha sok megbeszélés van egy nap?
+
+Rávezető kérdés: Segít-e a feladat megoldásában ha van egy határidő?
+
+Az agilis szoftverfejlesztés részét képezi a Scrum, amely az együttműködés és feladatkezelés egy módja. A Scrum részét képezi a sprint, amely csapattól függően 2-3 hét lehet. A sprint lényege, hogy mindig adjon egy keretet, egy határidőt, melyhez köthetjük feladatainkat. Nem hatalmas probléma persze, ha egy feladattal nem tudunk végezni 2-3 hét alatt (spillover), ekkor a következő sprintbe átkerül. A sprint arra is lehetőséget nyújt, hogy a csapat a következő sprintben változtathasson levonva az előző sprint tanulságait.
+
+A Scrum több meeting bevezetését javasolja, például a Daily Scrum-ot másnéven Stand Up-ot. A Stand Up egy napi 15-30 perces meeting, ahol a csoport minden tagja személyesen beszámol arról, hogy mivel dolgozott előző nap, mivel fog a mai nap dolgozni és milyen problémákba ütközött, kell-e megoldásukhoz segítség. Ez lehetővé teszi, hogy a csapattagot tudják, mivel dolgoznak éppen a többiek, kihez lehet fordulni segítségért.
+
+Programnyelv választása
+
+Rávezető kérdés: Tudtok-e mondani haszontalan programozás nyelveket? Miért gondoljátok hogy haszontalan? Meg tudjátok indokolni?
+
+Rávezető kérdés: Ki készített már saját projektet? Milyen programozási nyelvet használt és miért?
+
+A programozási nyelv választása nagy befolyással lehet a projekt alakulására. Ahhoz, hogy „jól döntsünk”, az alábbi szempontokat vehetjük figyelembe
+
+    • Programozási paradigma
+        ◦ Imperatív
+        ◦ Funkcionális
+        ◦ Objektum-orientált
+        ◦ Feladat-orientált (Task oriented)
+        ◦ Multiparadigmás
+    • Fordítás, végrehajtás módja
+        ◦ Fordított (C, C++, Haskell, Objective-C)
+        ◦ Tisztán interpretált (JavaScript, Python, ShellScript)
+        ◦ Félig lefordított (C#, Java, Scala, F#)
+    • Platformfüggetlenség vagy platform exkluzivitás
+        ◦ Swift – iOS
+        ◦ C# - Windows (bár készül a platformfüggetlen változat)
+        ◦ C, C++ - platformfüggetlen
+        ◦ Java – Vannak fő platformjai (Android)
+    • Szakmai kompetencia
+    • Környezetben elérhető komponensek, könyvtárak
+        ◦ .NET – erős grafikus támogatás
+        ◦ C++ - titkosítás, grafikus számítások
+        ◦ Swift – iOS grafikus alkalmazások
+        ◦ Haskell – Parsing könyvtárak
+
+Tiszta kód
+
+Rávezető kérdés: Mitől lesz szép egy kód?
+
+Kódolás alatt nem elég a feladatot megoldani. Úgy kell kódolni a problémát, hogy az átlátható, követhető, önmagát magyarázó legyen (utóbbi talán a legnehezebb). A nagy projektekben sokszor az idő nagy részét más programozók kódjának elemzésével, átírásával, tesztelésével töltjük. Ahhoz, hogy ez a folyamat minél gyorsabban menjen, a kódnak kommunikálnia kell valahogyan, milyen logika szerint épül fel. Egy szépen megírt kód elemezhető, könnyen tesztelhető, robusztus.
+
+Tényezők melyek hozzájárulhatnak a szép kódhoz
+    • Beszédes változónevek használata
+    • Konzisztens elnevezési sémák, formák (pl: snake_case, camelCase)
+    • Kódolási „megegyezések” követése
+        ◦ Hogyan tesszük ki a { } jeleket?
+        ◦ Hogyan írunk ciklust?
+        ◦ Hogyan ágyazunk egymásba, fűzünk egymás után feltételeket?
+    • Tiszta függvények (clean function)
+        ◦ A függvény tisztasága azt jelenti, hogy változtatja-e a bemeneti paramétereit
+        ◦ Tiszta függvény kimenete miatt könnyen tesztelhető
+        ◦ Kimenet nélküli függvények nehezebben tesztelhetők
+    • Leszármazási hierarchia használata
+        ◦ Program tesztelhetőségét segíti
+        ◦ Hogyan tudjuk később helyettesíteni az implementációt?
+    • Design principles használata
+        ◦ Factory patter
+        ◦ Visitor pattern
+        ◦ Dependency injection
+
+CI/CD
+
+Rávezető kérdések: Ki ismeri a rövidítéseket? Össze tudja-e foglalni mit jelentenek?
+
+Megjegyzés: Számíthatunk rá, hogy nem fogja senki tudni, ezek új és nehéz fogalmak.
+
+Nagy projektek végeztével (release) a régi időkben rengeteg hiba előjött a komponensek rossz kompatibilitása miatt. Ezekre a problémákra nyújt megoldást a Continuous Integration (folyamat beillesztés) és Continuous Deployment. A CI legnagyobb előnye, hogy levesz a programozó válláról számos terhet és automatizál folyamatokat. A CI tulajdonképpen egy hosszú és összetett folyamatok lánca, ami egy távoli (remote) számítógépen kerül végrehajtásra. A CI folyamatok a következők lehetnek:
+    • Projekt lefordítása, linkelése
+    • Tesztek lefuttatása
+    • Statikus analízis eszközök lefuttatása
+
+A CI és CD csak két módja a folyamatos fejlesztés megvalósításának. Ezt manapság a sok helyen divatos DevOps kifejezéssel írják le.
+
+Követelmények leírása, specifikálása
+
+Mielőtt egy projekt szakmai fejlesztése elindul, a felek megegyeznek a leszállítandó termék követelményeiben. Ez terméktől függően más és más lehet. 
+
+A formális követelmények tovább finomulnak amikor a projekt belső (cég szempontjából belső) tervezése elkezdődik. Ennek a tervezésnek is több módja van, de vannak általános eszközök, amiket ilyenkor használnak.
+    • Objektum-relációs diagrammok
+    • Actor diagrammok
+
+A feladat azonban sosem tökéletesen specifikált még a lekódoló programozónak sem. Rengeteg döntés a legalacsonyabb szinten születik, de a felsőbb specifikációnak mindig meg kell felelni.
+
+Opcionális: projekt fordítása
+
+Rávezető kérdés: Ki fordított már fejlesztői környezet nélkül?
+
+Rávezető kérdés: Miért kell lefordítani a fájlokat? Mi a lefordított állomány?
+
+Mindannyian fordítottunk már projektet, még ha nem is volt tudatos. A fejlesztői környezetek ma ezt a projekt létrehozásakor automatikusan beállítják, a programozónak sokszor nincs is dolga vele. Érdemes azonban tudni mi rejlik a lepel alatt. Egy nagy és komplex projekt fordítása, sokszor több mint egy órát is igénybe vehet. Nem akarjuk azonban, hogy egy kis rész változtatásával az egész kódbázist újra kelljen fordítanunk. Azt sem szeretnénk, hogy parancsok százait kelljen kiadnunk csak azért, hogy a fordítási folyamatot végigvigyük. Ezekre a problémákra nyújtanak megoldást az ún. Build System-ek.
+Nehéz felsorolni pontosan hány feladatot lát el egy build system, de talán a legfontosabbak az alábbiak:
+    • Fájlok egyenkénti lefordítása
+    • Teljes projekt linkelése
+    • Kimenet csomagolása (.exe, .tar.gz, .zip, .deb stb. csomagok)
+    • Függőségi gráf létrehozása és karbantartása
+        ◦ Ha egy változtatás nem érint egy fájlt, azt nem is szükséges újrafordítani
+Minden programozási nyelvnek megvan a maga build system-e. Ezek a nyelv készítőjétől általában független eszközök.
+Példák
+    • Alacsony szintű – GNU Make
+    • C/C++ - Cmake
+    • Java – Maven
+    • Haskell – Stack/Cabal
+
+Fejlesztés, verziókezelés
+
+Bár egyszerűnek hangzik, a fejlesztés sem csak a kódolásból áll. Mint ahogyan nagyobb dokumentumszerkesztésnél is megesik, néha szerkesztünk valamit, de rájövünk, hogy valójában máshogy szerettük volna. Ez kódolásnál is sokszor megesik, ezért a nagyobb projektek már mind verziókezelést használnak. A verziókezelő egy összetett eszköz, ami követi az egyes fájlok módosulásait (nem csak szöveges fájlok esetébne) és ezeket a módosításcsoportokat egy láncba gyűjti, ami kiadja a teljes projektet. Ezen a láncon kedvünkre mehetünk ide-oda, elágazhatunk és megjelölhetünk biztos pontokat. Nagy előnyt jelent ez a kódolásnál, mert így mindig vissza tudunk menni arra a verzióra, amire szeretnénk.
+
+Megjegyzés: Tekinthetünk úgy a verziókezelőre mint egy adatbázisra, ami fájlok különböző állapotait tárolja és mi lekérdezzük ezeket, akár csak SQL lekérdezés Access-ben.
+
+A kódolás végén két dolog még hátra van. Először is le kell ellenőriztetni a CI rendszeren és másoktól is Code Review-t kell kérnünk.
+
+Tesztelés
+
+A programozó a feladat megoldása közben számos hibát vét, melyek tesztek nélkül ismeretlenek maradnak. Ezek a hibák onnan erednek, hogy a programozó általános helyzetekre szeretne megoldást adni és megoldás közben ezekre koncentrál, nem a kivételes, ritkán előforduló esetekre. Mi történik ha rossz bemenetet ad a felhasználó? Mi történik ha üres vagy nulla értékű paraméter érkezik? Le tudja-e kezelni ezt a program hiba nélkül és tudja-e a hibát közvetíteni a külvilág felé? 
+
+A tesztelésnek azonban van egy másik hatása is, ami fölött sokunk figyelme elsiklik. A tesztelés egyik lépése lehet a Mock-olás. A Mock, tulajdonképpen egy egyszerű, kontrollálható működés, amit arra használ a tesztelő, hogy minden külső tényezőt befolyásolni tudjon. Ha program jól meg van írva, a tesztelő gond nélkül be tudja fecskendezni (dependency injection) az általa definiált működést a program részeibe.
+
+A teszt mérőszáma a kódlefedettség. Ez a százalék azt mondja meg, a tesztünk hatására a tesztelt kódmennyiség hány százaléka került végrehajtásra. Minél nagyobb a kódlefedettség, annál teljesebben a teszt.
+
+Karbantartás
+
+Egy projekt soha sincs teljesen kész. Mindig lehet hibákat javítani (bugfix), új funkciókon dolgozni, kódot átírni. Nem mindegy azonban, hogyan tesszük elérhetővé a változtatásokat a felhasználók számára. Például andoroid-os alkalmazások leírásában találkozhatunk ilyen bejegyzésekkel: „Bugfixes”. Sokat számít továbbá, hogy milyen módon fogadjuk a felhasználók által jelzett hibákat, javaslatokat. 
