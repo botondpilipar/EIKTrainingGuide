@@ -1,8 +1,12 @@
-build
-experiment
 *.pdf
 *.log
 *.gz
 *.fls
 *.fdb_latexmk
 *.aux
+*.listing
+*.out
+*.toc
+build
+experiment
+tasks.json
