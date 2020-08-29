@@ -1,37 +1,125 @@
 \documentclass[../Main.tex]{subfiles}
+
+\begin{center}
+    \begin{tabular}{| m{1.3 em} | m{0.7\textwidth} | m{0.1\textwidth} |}
+    \hline
+    1. & Programozás lényege (felvezetés) & 3 perc \\
+    \hline
+    2. & Folyamatábra bemutatása & 1 perc \\
+    \hline
+    3. & Struktogramm bemutatása & 1 perc \\
+    \hline
+    4. & Specifikáció és dokumentáció & 1 perc \\
+    \hline
+    5. & Programozási tételek & 1 perc \\
+    \hline
+    \end{tabular}
+\end{center}
+
 \subsection{Programozás lényege}
-    • Kérdés: Ki programozott már közületek? Mennyit? Milyen nyelven? Mit tanultatok középiskolában? Csak kódoltatok, vagy volt más is?
-    • Az egész tréning alatt az olyan fogalmakat, amelyek újak a gólyáknak , érdemes felírni a táblára és megbizonyosodni róla, hogy értik azt.
-    •  „Nem baj, ha még nem programoztál, itt nulláról kezdik a dolgokat, de fel kell készülni, hogy gyors a tempó!”
-    • Valószínűleg a legtöbb gólya programozott már valamilyen szinten. Ha úgy vesszük észre, hogy nagyon profi a csapat, akkor nem kell túlrészletezni a bevezető dolgokat.
-    • A program céljának egyik megfogalmazása: a bemenő adatok feldolgozása, az előírt feladat megoldása.
-    • Nagyon konyhanyelven a programozás lényege: egy nagy feladat felbontása kisebb részfeladatokra, amíg olyan műveletekhez nem jutunk, melyeknek a megoldása triviális. (Például egy recept akkor jó, ha részletesen vannak leírva a lépések; egy program nem működik jól, ha nem elég pontosan határozzuk meg a lépéseket, nem térünk ki minden esetre.)
-    • A képzés elején egyszerű programokkal fogtok foglalkozni, ami a haladóbbaknak gagyinak tűnhet. Fontos azonban, hogy átszokjanak ők is arra, hogy az IK szabályai alapján programozzanak.
+\textit{\textbf{Felvezető kérdések:} Ki programozott már közületek? Mennyit? Milyen nyelven?
+Mit tanultatok középiskolában? Csak kódoltatok, vagy volt más is?}
+
+\textit{\textbf{Tipp:} Az egész tréning alatt az olyan fogalmakat, amelyek 
+újak a gólyáknak, érdemes felírni a táblára és megbizonyosodni róla, hogy értik azt.}
+
+Bár a szakon programozást és programtervezést oktatnak első félévtől, nem baj,
+ha még nem programoztál, itt nulláról kezdik a dolgokat, de fel kell készülni, hogy gyors a tempó!
+
+\textit{\textbf{Tipp: } Valószínűleg a legtöbb gólya programozott már valamilyen szinten.
+Ha úgy vesszük észre, hogy nagyon profi a csapat, akkor nem kell túlrészletezni a bevezető dolgokat.}
+
+A program céljának egyik megfogalmazása: a bemenő adatok feldolgozása, az előírt feladat megoldása.
+
+Nagyon konyhanyelven a programozás lényege: egy nagy feladat felbontása kisebb részfeladatokra,
+ amíg olyan műveletekhez nem jutunk, melyeknek a megoldása triviális. (Például egy recept akkor jó,
+ ha részletesen vannak leírva a lépések; egy program nem működik jól, ha nem elég pontosan határozzuk
+ meg a lépéseket, nem térünk ki minden esetre.)
+
+A képzés elején egyszerű programokkal fogtok foglalkozni, ami a haladóbbaknak gagyinak tűnhet.
+Fontos azonban, hogy átszokjanak ők is arra, hogy az IK szabályai alapján programozzanak.
+
 \subsection{Algoritmizálás}
-    • Algoritmus fogalma: egy utasítássorozat, amely megoldja a felmerülő problémát. Például mikor útbaigazítasz valakit, lépésenként magyarázol – ez egy algoritmus. 
-    • Kezdésnek kérdezzük meg, van-e vállalkozó, aki szeretne felrajzolni a táblára egy folyamatábrát, vagy struktogrammot.
-    • Valószínűleg a folyamatábra lesz a legismertebb, viszont hozzá kell szoktatnunk őket, hogy itt struktogrammot fognak használni. Azt ne hangsúlyozzuk, hogy f.-t nem fognak haszn.!
-    • Kérdés: Foglalkozott már valaki folyamatábrával? Esetleg struktogrammal? Tapasztalatok? 
-    • Érdemes az algoritmusleíró eszközöknek utánanézni, egy jó összefoglaló a mellékletek között található.
-    • Algoritmusleíró módszerek bevezetése: Egy programot nem csak kóddal lehet leírni! A programtervezési fázisban érdemes az algoritmust felvázolni, hogy jobban átlássuk.
-    • Erre használható többféle algoritmusleíró módszer: az IK-n a képzés elején struktogrammot használunk, de mi most folyamatábrával is foglalkozunk.
-    • Írjuk fel a táblára a feladat szövegét: adott egy januári héten a minden nap mért legalacsonyabb hőmérséklet Celsiusban. Számoljuk meg, ezek közül hány napon volt fagypont alatti a hőmérséklet! (<0)
-    • Szükségünk van tehát egy algoritmusra, amely megszámolja, a 7 darab hőmérséklet közül melyik negatív, és ezt az algoritmust valahogy ábrázolnunk kell. Kezdjük a folymatábrával.
-        ◦ Itt érdemes lehet a tömb fogalmát tisztázni.
-    • Kérdezzük meg, van-e valaki, aki fel tudja sorolni a folyamatábra elemeit és felrajzolni őket a táblára. Ha nincs, akkor rajzoljuk fel mi, esetleg javítsunk:
-        ◦ Program belépési pontja, kilépési pontja	
-        ◦ Utasítás	
-        ◦ Döntési pont, elágazás	
-        ◦ Program folyásának iránya	
-    • Tegyük hozzá, hogy a folyamatábrához még tartozhatnak további jelölések - lásd a mellékletben - illetve előfordulhat hogy különböző helyeken esetleg egy-egy jelölésnek más jelentése van. Ha a hallgatók javasolnak ciklusmagra, csomópontra vonatkozó külön jelölést, lehet használni, de mindenképp érdemes még az elején tisztázni, hogy milyen eszközkészlettel akarunk dolgozni
-    • Itt érdemes a jelölések kapcsán elmondani, hogy az egyetemen alkalmazkodni kell a tanárok által megadott jelölésformákhoz. Később ezek alapos ismerete mellett majd el lehet térni, de beadandókban, számonkérésekben azt kell használni, amit tanítottak.
 
-    • Rendezzük őket csoportokba, majd adjuk ki feladatnak, hogy próbáljanak folyamatábrával levezetni egy algoritmust, ami megoldja az előbb felírt feladatot. Próbáljuk meg úgy szervezni, hogy haladók és kezdők is legyenek egy csoportban, és hívjuk fel a figyelmet arra, hogy közösen dolgozzanak, segítsenek egymásnak!
+Algoritmus fogalma: egy utasítássorozat, amely megoldja a felmerülő problémát.
+Például mikor útbaigazítasz valakit, lépésenként magyarázol – ez egy algoritmus. 
 
-    • A feladatnak több jó megoldása is van, hiszen a feladatot nem csak egy algoritmus oldja meg. Ha nem érkezik jó megoldás, akkor rajzoljuk fel a fenti folyamatábrát (megszámolás tétel).
-    • Lehet használni a ciklusmag jelölést is a megfelelő helyen!
-    • A folyamatábra után megkérdezzük, mindenkinek érthető-e ez a módszer. Ha nem, akkor esetleg egyszerűbb algoritmusokat is felrajzolhatunk, hogy szemléltessük a program részeit (emberibb témán kereszül, például teafőzés algoritmusa, de ha arra van igény, részletesebben elmagyarázhatjuk a program részeit is, pl. pontosan hogy működik az elágazás).
-    • Miután letisztáztuk a folyamatábrát, következzen a struktogramm. Tudassuk velük, hogy ezt a módszert kell majd használniuk a Programozás tárgy keretein belül, így fogják leadni az anyagot és számonkérni is.
+Kezdésnek kérdezzük meg, van-e vállalkozó, aki szeretne felrajzolni a táblára egy
+folyamatábrát, vagy struktogrammot. Valószínűleg a folyamatábra lesz a legismertebb,
+viszont hozzá kell szoktatnunk őket, hogy itt struktogrammot fognak használni.
+Azt ne hangsúlyozzuk, hogy folyamatábrát nem fognak használni.
+
+\textit{\textbf{Rávezető kérdés:} Foglalkozott már valaki folyamatábrával? Esetleg struktogrammal? Tapasztalatok?}
+
+Érdemes az algoritmusleíró eszközöknek utánanézni, egy jó összefoglaló a mellékletek között található.
+
+\subsubsection{Algoritmusleíró módszerek bevezetése}
+
+Egy programot nem csak kóddal lehet leírni!
+A programtervezési fázisban érdemes az algoritmust felvázolni, hogy jobban átlássuk. Erre használható
+többféle algoritmusleíró módszer: az IK-n a képzés elején struktogrammot használunk, de mi most folyamatábrával
+is foglalkozunk.
+
+\subsubsection{Folyamatábra}
+
+\textbf{Írjuk fel a táblára a feladat szövegét:}
+Adott egy januári héten a minden nap mért legalacsonyabb hőmérséklet Celsiusban.
+Számoljuk meg, ezek közül hány napon volt fagypont alatti a hőmérséklet! (<0)
+
+Szükségünk van tehát egy algoritmusra, amely megszámolja, a 7 darab hőmérséklet közül melyik
+negatív, és ezt az algoritmust valahogy ábrázolnunk kell. Kezdjük a folymatábrával.
+
+\textit{\textbf{Tipp: } Itt érdemes lehet a változó és tömb fogalmát tisztázni.}
+
+Kérdezzük meg, van-e valaki, aki fel tudja sorolni a folyamatábra elemeit és felrajzolni őket a táblára.
+Ha nincs, akkor rajzoljuk fel mi, esetleg javítsunk:
+
+\begin{center}
+\begin{tabular}{m{0.4\textwidth} m{0.4\textwidth}}
+    Belépési pont &  \begin{tikzpicture}
+                        \node (io) [startstop] {};
+                    \end{tikzpicture} \\
+    Utasítás & \begin{tikzpicture}
+        \node (command) [process] {};
+    \end{tikzpicture} \\
+    Döntési pont, elágazás & \begin{tikzpicture}
+        \node (if) [decision] {};
+    \end{tikzpicture} \\
+    Befejezés & \begin{tikzpicture}
+        \draw [arrow] (1, 0) -- (4, 0);
+    \end{tikzpicture} \\
+\end{tabular}
+\end{center}
+
+Tegyük hozzá, hogy a folyamatábrához még tartozhatnak további jelölések
+- lásd a mellékletben - illetve előfordulhat hogy különböző helyeken esetleg
+egy-egy jelölésnek más jelentése van. Ha a hallgatók javasolnak ciklusmagra,
+csomópontra vonatkozó külön jelölést, lehet használni, de mindenképp érdemes még
+az elején tisztázni, hogy milyen eszközkészlettel akarunk dolgozni
+
+\textit{\textbf{Tipp: }Itt érdemes a jelölések kapcsán elmondani, hogy az egyetemen
+     alkalmazkodni kell a tanárok által megadott jelölésformákhoz. Később ezek alapos ismerete mellett majd el lehet térni,
+     de beadandókban, számonkérésekben azt kell használni, amit tanítottak.}
+
+Rendezzük őket csoportokba, majd adjuk ki feladatnak,
+hogy próbáljanak folyamatábrával levezetni egy algoritmust,
+ami megoldja az előbb felírt feladatot. Próbáljuk meg úgy szervezni,
+hogy haladók és kezdők is legyenek egy csoportban, és hívjuk fel
+a figyelmet arra, hogy közösen dolgozzanak, segítsenek egymásnak!
+
+A feladatnak több jó megoldása is van, hiszen a feladatot nem csak egy
+algoritmus oldja meg. Ha nem érkezik jó megoldás, akkor rajzoljuk fel
+a fenti folyamatábrát (megszámolás tétel).
+
+\textit{\textbf{Tipp: }Lehet használni a ciklusmag jelölést is a megfelelő helyen!}
+
+A folyamatábra után megkérdezzük, mindenkinek érthető-e ez a módszer.
+Ha nem, akkor esetleg egyszerűbb algoritmusokat is felrajzolhatunk,
+hogy szemléltessük a program részeit (emberibb témán kereszül, például
+teafőzés algoritmusa, de ha arra van igény, részletesebben elmagyarázhatjuk
+a program részeit is, pl. pontosan hogy működik az elágazás).
+
+Miután letisztáztuk a folyamatábrát, következzen a struktogramm. Tudassuk velük, hogy ezt a módszert kell majd használniuk a Programozás tárgy keretein belül, így fogják leadni az anyagot és számonkérni is.
     • Kérdezzük meg, van-e valaki, aki fel tud rajzolni egy struktogrammot a táblára és elmondani, hogy kell olvasni, mik a részei. Ha nincs, akkor rajzoljuk fel mi, esetleg javítsunk bele:
     • Először egy teljes ábrát kellene rajzolni, hogy lássanak egyet egészben, utána jöhet a részeinek elmagyarázása.
     • A struktogramm úgy néz ki, mint egy táblázat, és felülről lefelé olvassuk.
