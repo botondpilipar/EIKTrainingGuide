@@ -111,6 +111,29 @@ ami megoldja az előbb felírt feladatot. Próbáljuk meg úgy szervezni,
 hogy haladók és kezdők is legyenek egy csoportban, és hívjuk fel
 a figyelmet arra, hogy közösen dolgozzanak, segítsenek egymásnak!
 
+\begin{center}
+\begin{tikzpicture}[node distance=2cm]
+
+    \node (start) [startstop] {Start};
+    \node (init) [process, right of=start, xshift=4cm] {\begin{tabular}{c} $db \coloneqq 0$ \\ $i \coloneqq 1$ \end{tabular}};
+    \node (while) [decision, below of=init, yshift=-1cm] {$i > 7$};
+    \node (afterIf) [process, left of=while, xshift=-4cm] {$i \coloneqq i + 1$};
+    \node (if) [decision, below of=while, yshift=-1cm] {$X[i] < 0$};
+    \node (true) [process, left of=if, xshift=-4.75cm, minimum width=2.5cm] {$db \coloneqq db + 1$};
+    \node (stop) [startstop, right of=while, xshift=4cm] {Stop};
+
+    \draw [arrow] (start) -- (init);
+    \draw [arrow] (init) -- (while);
+    \draw [arrow] (afterIf) -- (while);
+    \draw [arrow] (while) -- node[anchor=south] {I} (stop);
+    \draw [arrow] (while) -- node[anchor=east] {H} (if);
+    \draw [arrow] (if) -- node[anchor=south] {N} ++(-4.5cm, 0) -| ([xshift=1.25cm]afterIf.south);
+    \draw [arrow] (if) -- node[anchor=east] {I} ++(0, -2cm) -| (true);
+    \draw [arrow] (true.north) -| ([xshift=-0.75 cm]afterIf.south);
+
+\end{tikzpicture}
+\end{center}
+
 A feladatnak több jó megoldása is van, hiszen a feladatot nem csak egy
 algoritmus oldja meg. Ha nem érkezik jó megoldás, akkor rajzoljuk fel
 a fenti folyamatábrát (megszámolás tétel).
@@ -163,10 +186,10 @@ Adjuk ki feladatnak, hogy próbáljanak struktogrammal levezetni egy algoritmust
 Hívjuk fel a figyelmet arra, hogy közösen dolgozzanak, segítsenek egymásnak!
 
 \begin{stuki}
-    \stm{DB := 0}
+    \stm{db \coloneqq 0}
     \begin{WHILE}{2}{\stm{i=1..7}}
         \begin{IF}{1}{\stm{X[i] < 0}}
-            \stm{DB := DB + 1}
+            \stm{db \coloneqq db + 1}
             \ELSE
             \stm*{SKIP}
         \end{IF}
